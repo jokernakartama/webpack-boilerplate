@@ -31,7 +31,7 @@ module.exports = merge(config, {
         }
       }
     },
-    noEmitOnErrors: true,
+    emitOnErrors: false,
     minimizer: [
       new TerserPlugin({
         terserOptions: {
